@@ -1,19 +1,17 @@
-import Header from './Header'
-import Footer from './Footer'
-import Food from './Food'
+
+import Card from './Card/Card'
+
+
+
+//styling can be applied in 3 ways
+// 1.) External  style in index.css
+// 2.) Modules  create seperate module
+// 3.) Inline   create object
+
 
 function App() {
-
-  // return statement can return only single element that may contain children
-  // hence enclose them in a fragment <></>
   return(
-    // shorthand for <Header></Header>
-    <>
-      <Header/> 
-      <Food/>
-      <Footer/>
-    </>
-    
+    <Card/>
   )
 }
 
