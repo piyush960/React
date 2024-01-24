@@ -1,17 +1,22 @@
+// props -> read-only properties that are shared between components
+//           A parent component can send data to child component
+//           <Component key=value />
 
-import Card from './Card/Card'
+// propTypes -> a mechanism which ensures the passed value is of correct datatype
+//            age: PropeTypes.number
 
+// defaultProps -> used to pass a default value
 
-
-//styling can be applied in 3 ways
-// 1.) External  style in index.css
-// 2.) Modules  create seperate module
-// 3.) Inline   create object
-
+import Student from './Student'
 
 function App() {
   return(
-    <Card/>
+    <>
+      <Student name="Alex" age={21}/>
+      <Student name="Sam" age={19}/>
+      <Student name="Helena" age={22}/>
+      <Student age={20}/>
+    </>
   )
 }
 

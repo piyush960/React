@@ -1,0 +1,12 @@
+.student{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    text-align: center;
+    width: 200px;
+}
+
+.student h2, .student p{
+    margin: 0;
+}
