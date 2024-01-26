@@ -1,28 +1,21 @@
 /*
-useContext() --> React Hook that allows to pass value through multiple level of Components
-without using props (prevents prop drilling)
+useState() --> triggers the component everytime the state of value changes
 
-//Provider Component
+useRef() --> React Hook that doesn't trigger the component its state of value changes
 
-import {createContext} from react
-export const MyContext = createContext()
-<MyContext.Provider value= {value}>
-  <child />
-<MyContext.Provider />
-
-
-// Consumer Component
-
-import MyContext from ProviderComponet
-import { useContext } from react
-const value = useContext(MyContext)
+useful for
+Accessing/Interacting with DOM elements
+Handling Focus, Animations, and Transitions
+Managing Timers and Intervals
 
 */
 
-import ComponentA from "./ComponentA"
+import MyComponent from "./MyComponent"
 
 function App(){
-  return(<ComponentA />)
+  return(<>
+    <MyComponent />
+  </>)
 }
 
 export default App
