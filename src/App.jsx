@@ -1,7 +1,7 @@
 /*
-useState() --> triggers the component everytime the state of value changes
+useState() --> triggers the component to re-render everytime the state of value changes
 
-useRef() --> React Hook that doesn't trigger the component its state of value changes
+useRef() --> React Hook that doesn't trigger the component to re-render when its state of value changes
 
 useful for
 Accessing/Interacting with DOM elements
