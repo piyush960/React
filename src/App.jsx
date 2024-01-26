@@ -1,20 +1,11 @@
-/**
- React Hook -> special function that allow functional components to use react features
-              without writing classes (useState, useEffect, useContext, etc.) 
-  
-  useState() -> a react hook that allows creation of a stateful variable and a setter
-                setter is used to update the value of stateful variable in virtual DOM
-                [name, setName]
- 
- */
+// onChange -> it is event handler that triggers a function every time the value of input changes
+// used primarily with form elements 
 
-import Counter from './Counter'
+import MyComponent from "./MyComponent"
 
-function App() {
+function App(){
 
-  return(
-    <Counter />
-  )
+  return(<MyComponent />)
 }
 
 export default App
