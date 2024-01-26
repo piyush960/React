@@ -1,11 +1,10 @@
-// onChange -> it is event handler that triggers a function every time the value of input changes
-// used primarily with form elements 
+// Color Picker App
 
-import MyComponent from "./MyComponent"
+import ColorPicker from "./ColorPicker";
 
 function App(){
 
-  return(<MyComponent />)
+  return(<ColorPicker />)
 }
 
 export default App
